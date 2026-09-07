@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section id="about" class="hero-section relative overflow-hidden border-b border-ink/10">
+    <section id="works" class="hero-section relative overflow-hidden border-b border-ink/10">
       <div class="absolute inset-0" aria-hidden="true">
         <div class="hero-orb hero-orb--one"></div>
         <div class="hero-orb hero-orb--two"></div>
