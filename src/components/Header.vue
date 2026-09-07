@@ -7,13 +7,19 @@
         </RouterLink>
 
         <nav class="hidden items-center gap-8 md:flex" aria-label="Primary navigation">
-          <a class="nav-link" href="#about">About</a>
-          <a class="nav-link nav-link--active" href="#works">Works</a>
+          <a :class="['nav-link', { 'nav-link--active': route.path === '/about' }]" href="/about">About</a>
+          <a :class="['nav-link', { 'nav-link--active': route.path === '/works' }]" href="/works">Works</a>
           <a class="nav-link" href="#listen">Listen</a>
           <a class="nav-link" href="#contact">Contact</a>
         </nav>
 
-        <a class="menu-link md:hidden" href="#works">Menu <span aria-hidden="true">↘</span></a>
+        <a class="menu-link md:hidden" href="/works">Menu <span aria-hidden="true">↘</span></a>
       </div>
     </header>
 </template>
+
+<script setup lang="ts">
+import { RouterLink, useRoute } from 'vue-router'
+
+const route = useRoute()
+</script>
