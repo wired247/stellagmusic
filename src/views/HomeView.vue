@@ -3,8 +3,7 @@
     <article class="page-regions" id="page-regions">
       <!-- <section class="hero-section relative overflow-hidden border-b border-ink/10"> -->
       <section class="region">
-        <section
-          class='page-section 
+        <section class='page-section 
           full-bleed-section
           layout-engine-section
           background-width--full-bleed
@@ -20,9 +19,6 @@
                 style="display:block;object-position: 31.77% 51.22%"
               >
             </div>
-            <div class="section-background-overlay" style="opacity: 0;">
-                Home content
-             </div>
           </div>
             
         </section>
