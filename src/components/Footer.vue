@@ -1,5 +1,5 @@
 <template>
-    <footer id="contact" class="bg-ink text-paper">
+    <footer v-if="route.meta.showFooter" id="contact" class="bg-ink text-paper">
       <div class="page-shell grid gap-12 py-16 md:grid-cols-[1.5fr_1fr_1fr] md:py-20">
         <div>
           <p class="eyebrow mb-6 text-coral">Keep in touch</p>

@@ -1,9 +1,8 @@
-import './assets/main.css'
+// import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import './assets/main.css'
 
 // Import Squarespace static CSS
 import './assets/sqsp/universal/user-account-core-min.en-US.css'
