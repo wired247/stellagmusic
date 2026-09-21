@@ -31,14 +31,6 @@
   </main>
 </template>
 
-<!-- *** sqs-code-container emits style that hides the footer on home page
-<style>
-  footer#contact {
-    display:none !important;
-  }
-</style>
-  -->
-
 <script setup lang="ts">
   import homeImageUrl from '../assets/home/stella_home.jpg'
 </script>
