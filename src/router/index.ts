@@ -10,19 +10,19 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
-      meta: { showFooter: false },
+      meta: { showFooter: false, showHeaderLogo: true },
     },
     {
       path: '/about',
       name: 'about',
       component: AboutView,
-      meta: { showFooter: true },
+      meta: { showFooter: true, showHeaderLogo: false },
     },
     {
       path: '/works',
       name: 'works',
       component: WorksView,
-      meta: { showFooter: true },
+      meta: { showFooter: true, showHeaderLogo: false },
     },
   ],
   scrollBehavior(to) {
