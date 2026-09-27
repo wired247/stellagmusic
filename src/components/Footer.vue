@@ -68,7 +68,7 @@
                         <div class="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper">
                           <div class="fluid-image-container sqs-image-content js-image-container visitor-mode">
                             <div class="js-content-mode-element-wrapper js-content-mode-element-system_desktop">
-                              <a class="sqs-block-image-link js-content-mode-element content-fit" href="/home">
+                              <a class="sqs-block-image-link js-content-mode-element content-fit" href="/">
                                 <img :src="footerImgUrl"
                                   sizes="auto, (max-width: 640px) 100.00vw, (max-width: 767px) 100.00vw, 33.33vw" 
                                   alt="Stella G. Gitelman Willoughby" width="1123" height="120" 
