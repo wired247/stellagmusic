@@ -22,7 +22,7 @@ const router = createRouter({
       path: '/works',
       name: 'works',
       component: WorksView,
-      meta: { showFooter: true, showHeaderLogo: false },
+      meta: { showFooter: true, showHeaderLogo: true },
     },
   ],
   scrollBehavior(to) {

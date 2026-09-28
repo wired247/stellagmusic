@@ -173,7 +173,7 @@
 </template>
 
 <style scoped>
-@import '@/assets/works/works.css';
+@import '@/assets/footer.css';
 </style>
 
 <script setup lang="ts">

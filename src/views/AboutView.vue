@@ -129,8 +129,24 @@
                       <div class="sqs-block-button-container sqs-button-block-container-system_desktop sqs-block-button-container--center">
                         <a href="https://drive.google.com/drive/folders/1rGCVeHsWdZEyIDQnt2wDJH9P7TSZMZkT?usp=sharing" 
                         class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" 
-                        target="_blank" style="background-color:rgb(255 211 189);">
+                        target="_blank" style="color:rgb(43, 43, 43); background-color:rgb(255 211 189);">
                           Download Bios
+                        </a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="fe-block fe-block-ccb9765d623a3c954b07">
+                  <div class="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block" 
+                    data-definition0name="website.components.button" data-sqsp-block="button">
+                    <div class="sqs-block-content" id="yui_3_17_2_1_1790549020505_82">
+                      <div class="sqs-block-button-container sqs-button-block-container-system_desktop sqs-block-button-container--center">
+                        <a href="/LoW_GitelmanWilloughby_9-1-2025.pdf" 
+                        class="sqs-block-button-element--large sqs-button-element--secondary sqs-block-button-element" 
+                        target="_blank" style="color:rgb(43, 43, 43); background-color:rgb(255, 197, 196);">
+                          Download Resume, List of Works
                         </a>
                       </div>
 
